@@ -10,7 +10,7 @@
   <groupId>com.cbfacademy</groupId>
   <artifactId>accounts</artifactId>
   <version>1.0.0</version>
-
+  
   <name>accounts</name>
 
   <build>
