@@ -16,8 +16,10 @@ public class FizzBuzz {
      
   }
 
-    return "BETH";
+  else {
+    // String.valueOf() method converts the integer num to its string representation.
+    //For example, if num is 4, String.valueOf(num) will return "4" as a string.
+    return String.valueOf(n);
   }
-  
- 
+  }
 }
