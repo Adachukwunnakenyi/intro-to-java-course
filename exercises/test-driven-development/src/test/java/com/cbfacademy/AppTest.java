@@ -1,5 +1,7 @@
 package com.cbfacademy;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -17,4 +19,18 @@ public class AppTest {
 
         assertThat(app, is(notNullValue()));
     }
+
+    @Test
+    @DisplayName("prints FizzBuzz if number divisible by 3 and by 5")
+    public void printsFizzBuzz() {
+        assertEquals("FizzBuzz", FizzBuzz.get(15));
+    }
+
+
+
+
+
+
+
+
 }

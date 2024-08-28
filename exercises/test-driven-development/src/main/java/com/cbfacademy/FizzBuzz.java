@@ -1,8 +1,10 @@
 package com.cbfacademy;
 
 public class FizzBuzz {
-  
-  public static String printFizzBuzz(int n) {
-    return "";
+
+  public static String get(int n) {
+    return "Miracle";
   }
+  
+ 
 }
