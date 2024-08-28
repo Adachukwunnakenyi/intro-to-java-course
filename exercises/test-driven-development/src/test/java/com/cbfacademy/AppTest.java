@@ -38,10 +38,11 @@ public class AppTest {
         assertEquals("Buzz", FizzBuzz.get(5));
     }
 
-
-
-
-
+    @Test
+    @DisplayName("prints the number itself in a string format if the number is not a multiple of 3, 5 or 15")
+    public void printsNumber() {
+        assertEquals("2", FizzBuzz.get(2));
+    }
 
 
 
