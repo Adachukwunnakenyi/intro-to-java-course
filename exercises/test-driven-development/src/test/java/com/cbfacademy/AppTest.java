@@ -26,6 +26,20 @@ public class AppTest {
         assertEquals("FizzBuzz", FizzBuzz.get(15));
     }
 
+    @Test
+    @DisplayName("prints Fizz if number divisible by 3 ")
+    public void printsFizz() {
+        assertEquals("Fizz", FizzBuzz.get(3));
+    }
+
+    @Test
+    @DisplayName("prints Buzz if number divisible by 5 ")
+    public void printsBuzz() {
+        assertEquals("Buzz", FizzBuzz.get(5));
+    }
+
+
+
 
 
 
